@@ -1,4 +1,6 @@
 <?php
+echo 'Включение point_class'; ?><br>
+<?php
 if (!defined('Point::NAME'))
 {
 class Point 
