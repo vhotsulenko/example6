@@ -1,10 +1,10 @@
 <?php
 echo 'Включение point_class'; ?><br>
 <?php
-if (defined('Point::NAME')) return;
+if (defined('Point::FLAG')) return;
 class Point 
     {
-    const NAME = 'point';
+    const FLAG = true;
     public $x;
     public $y;
     public $z;
