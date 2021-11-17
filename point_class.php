@@ -1,8 +1,7 @@
 <?php
 echo 'Включение point_class'; ?><br>
 <?php
-if (!defined('Point::NAME'))
-{
+if (defined('Point::NAME')) return;
 class Point 
     {
     const NAME = 'point';
@@ -10,4 +9,3 @@ class Point
     public $y;
     public $z;
     }
-}
